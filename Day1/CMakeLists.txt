@@ -10,3 +10,6 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 #This tells CMake to create an executable with the following name based on the specified source files
 add_executable(main main.cpp)
+
+#Run "cmake ." to configure the project 
+#Run "cmake --build" to actually compile the project
