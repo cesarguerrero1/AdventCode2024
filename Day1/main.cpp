@@ -12,15 +12,12 @@
 
 //Prototype functions
 int solutionOne();
-int solutionTwo();
 
 int main() {
     
     int ans1 = solutionOne();
     std::cout << "The solution to part one is: " << ans1 << std::endl;
-    int ans2 = solutionTwo();
-    std::cout << "The solution to part two is: " << ans2 << std::endl;
-
+    
     return 0;
 }
 
